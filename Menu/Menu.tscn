@@ -8,7 +8,13 @@ margin_bottom = 603.0
 
 [node name="Button" type="Button" parent="."]
 margin_left = 477.0
-margin_top = 545.0
+margin_top = 546.0
 margin_right = 577.0
-margin_bottom = 583.0
+margin_bottom = 584.0
 text = "Start Game"
+
+[node name="Camera" type="TextureRect" parent="."]
+margin_left = 115.0
+margin_top = 97.0
+margin_right = 938.0
+margin_bottom = 534.0
