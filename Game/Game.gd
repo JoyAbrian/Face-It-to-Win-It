@@ -12,7 +12,9 @@ func _ready():
 
 func _process(delta):
 	time += delta
+	startTimer(time)
 
+func startTimer(time):
 	second = fmod(time, 60)
 	minute = fmod(time / 60, 60)
 	hour = fmod(time / 3600, 24)
@@ -22,3 +24,4 @@ func _process(delta):
 	var secondText = "%02d" % second
 
 	timer.text = hourText + ":" + minuteText + ":" + secondText
+	
