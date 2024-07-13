@@ -1,0 +1,23 @@
+[gd_scene format=2]
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+margin_right = 1027.0
+margin_bottom = 603.0
+
+[node name="Camera" type="TextureRect" parent="."]
+margin_left = 115.0
+margin_top = 97.0
+margin_right = 938.0
+margin_bottom = 534.0
+
+[node name="Timer" type="Label" parent="."]
+margin_left = 496.0
+margin_top = 62.0
+margin_right = 554.0
+margin_bottom = 84.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "00:00:00"
+align = 1
+valign = 1
