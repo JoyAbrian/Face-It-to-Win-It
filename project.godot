@@ -14,6 +14,10 @@ config/name="Face It To Win It"
 run/main_scene="res://Scene/Menu/Menu.tscn"
 config/icon="res://icon.png"
 
+[gdnative]
+
+singletons=[ "res://webrtc.tres" ]
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
